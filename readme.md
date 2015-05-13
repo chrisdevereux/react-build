@@ -1,10 +1,13 @@
-An opinionated, zero-configuration packager and debug server for React components and apps. 
+react-build
+-----------
 
-Bundles small assets and code into a single .js bundle. Transpiles ES6, jsx and flowtype annotations using babel.
+An opinionated, zero-configuration packager and debug server for [React](https://facebook.github.io/react/) components and single-page apps.
 
-Development server allows component properties to be passed in via URL query parameters.
+Just `react-build` any commonjs module that exports a React component and you will have either a fast, live-reloading development server that preserves component state between reloads or a bundled html+js file ready for distribution.
 
-Eases development of loosely-coupled components without the hassle of setting up a build system for each module.
+Uses [Webpack](https://webpack.github.io/) and various plugins and transforms to do the heavy lifting. The main selling point over plain webpack is that comes batteries-included and doesn't require you to write a build config to package a module.
+
+This is nice during development because it allows you to load up any component and edit in isolation. Component properties can be passed in via the query url (plain text or JSON values). Eg: http://localhost:8080/?greeting=hello;greetee=world
 
 
 # Installation
@@ -19,10 +22,12 @@ npm install -g react-build
 ### Start a local development server
 
 ````
-# omit the -f to use index.js in cwd
+# Omit the -f to use index.js/jsx in current directory.
+# Defaults to port 8080
 
 cd ~/my-app/src
 react-build -f my-component.js
+
 ````
 
 
