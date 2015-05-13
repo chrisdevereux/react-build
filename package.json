@@ -4,7 +4,7 @@
   "description": "An opinionated, zero-config bundler and debug server for React components, built around webpack",
   "main": "index.js",
   "bin": {
-    "react-build": "cli.js"
+    "react-build": "bin/cli.js"
   },
   "directories": {
     "test": "test"
