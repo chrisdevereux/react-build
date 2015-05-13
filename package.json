@@ -1,0 +1,44 @@
+{
+  "name": "react-build",
+  "version": "1.0.0",
+  "description": "An opinionated, zero-config bundler and debug server for React components, built around webpack",
+  "main": "index.js",
+  "bin": {
+    "react-build": "cli.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-core": "^5.3.1",
+    "babel-loader": "^5.0.0",
+    "command-line-args": "^0.5.9",
+    "query-params": "^0.0.1",
+    "react": "^0.13.3",
+    "node-libs-browser": "^0.5.0",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.5",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdevereux/react-build.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "bundler",
+    "packager",
+    "live-reload"
+  ],
+  "author": "Chris Devereux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdevereux/react-build/issues"
+  },
+  "homepage": "https://github.com/chrisdevereux/react-build"
+}
