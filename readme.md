@@ -44,6 +44,13 @@ See above
 ````
 
 
+# Supported assets
+
+- less
+- css
+- js (with ES6/jsx transpiling via [Babel](https://babeljs.io))
+
+
 # Contributing
 
 Please send pull requests to integrate support for additional resource types.
