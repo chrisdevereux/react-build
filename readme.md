@@ -22,7 +22,6 @@ npm install -g react-build
 ### Start a local development server
 
 ````
-# Omit the -f to use index.js/jsx in current directory.
 # Defaults to port 8080
 
 cd ~/my-app/src
@@ -31,7 +30,7 @@ react-build -f my-component.js
 ````
 
 
-### Bundle a single page webapp for distribution
+### Bundle a single page webapp for distribution (todo)
 
 ````
 cd ~/my-app
@@ -39,6 +38,16 @@ react-build -f src/main.js -o dist/app.js
 ````
 
 
-### Advanced usage
+# Advanced usage
 
 See above
+````
+
+
+# Contributing
+
+Please send pull requests to integrate support for additional resource types.
+
+When support for distribution builds lands, react-build may support customization of how assets are packaged (eg. images as data uris vs separate files for CDN). 
+
+Customization options should not be able to affect *whether or not the package works*.
