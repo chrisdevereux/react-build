@@ -5,6 +5,7 @@ var Root = require('react-pack-debug-root-component');
 var params = require('query-params');
 
 window.onload = () => {
+  document.title = __react_build.moduleName + ' | react-build';
   React.render(
     (
       <Root {...getProps()}/>
