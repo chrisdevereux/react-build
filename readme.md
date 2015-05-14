@@ -41,7 +41,7 @@ react-build -f src/main.js -o dist/app.js
 # Advanced usage
 
 See above
-````
+
 
 
 # Supported assets
