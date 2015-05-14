@@ -1,7 +1,7 @@
 {
   "name": "react-build",
-  "version": "1.0.3",
-  "description": "An opinionated, zero-config bundler and debug server for React components, built around webpack",
+  "version": "1.0.4",
+  "description": "An opinionated, zero-configuration packager and debug server for React components and single-page apps",
   "main": "index.js",
   "bin": {
     "react-build": "bin/cli.js"
