@@ -1,6 +1,6 @@
 {
   "name": "react-build",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "An opinionated, zero-configuration packager and debug server for React components and single-page apps",
   "main": "index.js",
   "bin": {
